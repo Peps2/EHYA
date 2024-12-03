@@ -199,7 +199,6 @@ nav button{
     
 }
 
-
 .deviceText h3{
     font-family: DM Sans;
     font-size: 36px;
@@ -207,9 +206,7 @@ nav button{
     line-height: 52px;
     letter-spacing: 0.30000001192092896px;
     color: #034D82;
-    width: 90%;
-
-    
+    width: 90%;  
 }
 
 .deviceText p{
@@ -238,3 +235,142 @@ nav button{
     color: #04AADD;
 }
 
+.hashtag{
+    background: rgba(239, 251, 255, 1);
+    padding: 4rem 0rem;
+    margin-top: 5rem;
+}
+
+.tophashtag{
+    text-align: center;
+}
+
+.tophashtag h2{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    color: rgba(3, 77, 130, 1);
+
+}
+
+.tophashtag p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(142, 169, 193, 1);
+    padding: 1rem 0;
+    width: 45%;
+    margin: auto;
+}
+
+.cardWrap{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    height: 60vh;
+    /* margin-top: 2rem; */
+}
+
+.card{
+    background: #fff;
+    padding: 1rem 0.5rem 3rem 2rem;
+    border-radius: 8px;
+    width: 199%;
+    height: 300px;
+}
+
+.card:hover{
+    background: rgba(3, 77, 130, 1);
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-radius: 8px;
+
+
+}
+
+.card h5{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 34px;
+    /* color:rgba(3, 77, 130, 1); */
+    padding: 1rem 0rem;
+
+}
+
+.card p{
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 1rem;
+    /* color:rgba(142, 169, 193, 1); */
+}
+
+.growth{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.growthLeft h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    color: rgba(3, 77, 130, 1);
+}
+
+.growthLeft p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(144, 163, 180, 1);
+
+}
+
+.growthText p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(144, 163, 180, 1);
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.hart{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 3rem;
+    
+}
+
+.hartName h5{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    color: rgba(3, 77, 130, 1);
+}
+
+.hartName p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(144, 163, 180, 1);
+    margin: auto;
+}
