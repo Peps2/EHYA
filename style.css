@@ -362,6 +362,11 @@ nav button{
     
 }
 
+.hartImage{
+    width: 70px;
+    height: 64px;
+}
+
 .hartName h5{
     font-family: DM Sans;
     font-size: 20px;
