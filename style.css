@@ -68,18 +68,18 @@ nav button{
     margin-top: 7rem;
 
 }
-.textside{
+.textSide{
     margin-left: 6rem;
 }
 
-.textside h2{
+.textSide h2{
     font-family: Dm sans;
     font-size: 64px;
     font-weight: 700;
     color: #fff;
 }
 
-.textside p{
+.textSide p{
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
@@ -139,10 +139,13 @@ nav button{
     align-items: center;
     width: 80%;
     margin: auto;
+    margin-top: 4rem;
 }
 
+
+
 .postImage img{
-    width: 80%;
+    width: 100%;
 }
 
 .postImage{
@@ -155,12 +158,12 @@ nav button{
 
 .postText h3{
     font-family: DM Sans;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0.30000001192092896px;
     color: #034D82;
-    width: 80%;
+    width: 85%;
 
 }
 
@@ -176,13 +179,14 @@ nav button{
 .postText a{
     font-family: DM Sans;
     font-size: 16px;
-    font-weight: 700;
-    line-height: 20.83px;
+    font-weight: 400;
+    line-height: 32px;
     color: #04AADD;
 }
 
 .iphone{
     position: absolute;
+    /* width: 40%; */
 }
 .arrow{
     position: relative;
@@ -241,11 +245,11 @@ nav button{
     margin-top: 5rem;
 }
 
-.tophashtag{
+.topHashtag{
     text-align: center;
 }
 
-.tophashtag h2{
+.topHashtag h2{
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
@@ -254,7 +258,7 @@ nav button{
 
 }
 
-.tophashtag p{
+.topHashtag p{
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
@@ -513,3 +517,217 @@ li{
     margin-top: 1rem;
 
 }
+
+
+@media  (max-width: 1024px) {
+    .textSide h2{
+       width: 100%;
+        font-size: 44px;
+    }
+    .textSide p{
+        width: 90%;
+        padding: 1rem 0;
+    }
+
+    .curve img{
+        width: 25%;
+    }
+
+    .demo button{
+        font-size: 16px;
+        width: 55%; 
+    }
+
+    .demo{
+        margin-bottom: 3rem;
+    }
+
+    .textSide{
+        width: 50%;
+    }
+
+    .imageside{
+       width: 50%;
+
+    }
+
+    .iphone{
+        width: 35%;
+    }
+
+    
+    .postText{
+        width: 50%;
+    }
+
+    .postText h3{
+        
+        width: 100%;
+    
+    }
+
+    .cardWrap{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+        height: 30%;
+    
+    }
+    
+    .card{
+        width: 100%;
+        height: 320px;
+    }
+
+    .growthLeft h3{
+        font-size: 36px;
+        width: 90%;
+    }
+
+    .growthLeft p{   
+        font-size: 16px;
+        width: 90%;
+    
+    }
+
+    .footRight{
+        width: 80%;
+    }
+
+    
+
+}
+
+@media  (max-width: 768px) {
+
+    header{
+        gap: 3rem;
+    }
+
+
+    nav {
+        
+        width:90%;
+        align-items: center;
+      
+    }
+
+    .navBar{
+        margin-bottom: -1rem;
+    }
+
+   .logo {
+    width: 20%;
+ 
+   }
+
+   .textSide{
+    margin-left: 4rem;
+    }
+
+    
+
+    .textSide h2{
+        font-size: 34px;
+        width: 100%;
+
+
+    }
+
+    .textSide p{
+        font-size: 13px;
+       
+    }
+
+    .demo button{
+        font-size: 16px;
+        padding: 0.7rem 1rem;
+        width: 90%;
+    }
+
+    .postText h3{
+        font-size: 28px;
+        line-height: 40px;
+        width: 100%;
+        
+    }
+
+    .postText p{
+        font-size: 14px;
+        line-height: 22px;
+        padding: 1rem 0;
+        
+    }
+
+    /* .post{
+        margin-top: 4rem;
+
+    } */
+
+    .topHashtag h2{
+        font-size: 28px;
+        line-height: 52px;
+       
+    
+    }    
+
+    .topHashtag p{
+     
+        font-size: 14px;
+        width: 60%;
+        
+    }
+
+    .device{
+        
+        width: 95%;
+       
+        
+    }
+
+    .deviceText p{
+        font-size: 16px;
+        height: 69px;
+        width: 100%;
+
+
+    }
+
+    
+
+    .cardWrap{
+       
+        gap: 1rem;
+        height: 80vh;
+       
+    }
+
+    .card{
+       
+        padding: 1rem;
+       
+    }
+
+    .card h5{
+      
+        font-size: 16px;
+        
+        line-height: 24px;
+        
+    }
+    
+    .card p{
+    
+        font-size: 13px;
+        
+    }
+
+    .card img{
+        width: 40%;
+        
+    }
+
+}
+   
