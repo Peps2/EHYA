@@ -666,10 +666,7 @@ li{
         
     }
 
-    .hartImage{
-        width: 70px;
-        height: 64px;
-    }
+    
     /* .post{
         margin-top: 4rem;
 
@@ -738,5 +735,26 @@ li{
         
     }
 
+    
+
 }
+
+@media  (max-width: 425px){
+
+    
+    header{
+        gap: 1rem;
+        /* width: 650px; */
+
+    }
+    
+    nav {
+        
+        width:85%;
+        align-items: center;
+      
+    }
+
    
+} 
+    
